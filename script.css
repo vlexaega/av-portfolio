@@ -9,9 +9,10 @@ header {
 }
 
 nav {
-    /*display: inline-block;*/
+    display: inline-block;
     /*margin-left: 25px;*/
     float: right;
+    margin-inline: 147px;
     padding: 35px 30px 35px 30px;
     flex-wrap: wrap;
 }
@@ -22,11 +23,20 @@ main {
     padding: 1%;
 }
 
-p a {
-
-}
-
 img {
     max-width: 100%;
     max-height: auto;
+}
+
+
+p, ul {
+    margin-inline: 147px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.link {
+    margin-inline: 147px;
+    text-align: left;
+    margin-bottom: 50px;
 }
