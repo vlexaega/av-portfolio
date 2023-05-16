@@ -10,20 +10,82 @@ img {
 header {
     background-color: rgb(0, 166, 255);
     display: flex;
+    align-items: flex-end;
+    padding: 1%;
     font-size: 1em;
-    flex-direction: column;
+    flex-direction: row;
+    
 }
 
+nav {
+    position: absolute;
+    right: 0;
+    margin: 22px;
+}
+
+main {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+ul {
+    display:flex;
+    
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    width: 90px;
+    align-items: end;
+    border-right: 3px solid black;
+    justify-content: flex-end;
+}
+
+.right {
+    display:flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+/*h2 {
+    position: absolute;
+    left: 0;
+    margin: 22px;
+}
+
+/*.right {
+    display:flex;
+    flex-direction: column;
+    left:168px;
+    margin: 10px;
+}
+/*
 main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    padding: 20px;
+    line-height: 1.2em;
+    width: 30%;
+    align-items: end;
     /*flex-direction: column;*/
     /*padding: 1%;*/
-}
-
+/*}
 h2 {
-
+    display:flex;
+    justify-content: left;
+    padding-left: 20%;
 }
+
+.class {
+    display: flex;
+    justify-content: right;
+    padding-right: 20%;
+}*/
+
 
 
