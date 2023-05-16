@@ -2,41 +2,28 @@
     font-family: sans-serif;
 }
 
-header {
-    background-color: rgb(0, 166, 255);
-    display: flex;
-    font-size: 1em;
-}
-
-nav {
-    display: inline-block;
-    /*margin-left: 25px;*/
-    float: right;
-    margin-inline: 147px;
-    padding: 35px 30px 35px 30px;
-    flex-wrap: wrap;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1%;
-}
-
 img {
     max-width: 100%;
     max-height: auto;
 }
 
-
-p, ul {
-    margin-inline: 147px;
-    text-align: left;
-    margin-bottom: 50px;
+header {
+    background-color: rgb(0, 166, 255);
+    display: flex;
+    font-size: 1em;
+    flex-direction: column;
 }
 
-.link {
-    margin-inline: 147px;
-    text-align: left;
-    margin-bottom: 50px;
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /*flex-direction: column;*/
+    /*padding: 1%;*/
 }
+
+h2 {
+
+}
+
+
