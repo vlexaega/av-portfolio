@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -29,7 +29,6 @@ header li {
     padding: 0 20px;
 }
 
-/* MAIN CONTENT STYLING */
 
 main {
     background-color: rgb(121, 211, 250);
