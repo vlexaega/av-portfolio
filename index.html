@@ -12,20 +12,28 @@
 <body>
     <header>
         <h1>Alex Vega</h1>
-        <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#contact-me">Contact Me</a>
-            <a href="#resume">Resume</a>
-        </nav>
+        <ul>
+            <li>
+                <a href="#about-me">About Me</a>
+            </li>
+            <li>
+                <a href="#work">Work</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
     </header>
 
-<img src="../hw2-advanced-css-challenge-professional-portfolio/assets/bahamas.3.jpg" alt="Bahamas" id="bahamas">
+<img src="../hw2-advanced-css-challenge-professional-portfolio/assets/bahamas.3.jpg" 
+    alt="Bahamas" id="bahamas">
 
 <main>
     <section class="about-me">
         <h2>About Me</h2>
-        <img src="../hw2-advanced-css-challenge-professional-portfolio/assets/selfie1.jpg" alt="selfie" id="selfie">
+        <div class="profile-pic">
+            <img src="../hw2-advanced-css-challenge-professional-portfolio/assets/selfie1.jpg" alt="selfie" id="selfie">
+        </div>
         <p>My name is Alex Vega and I am learning coding languages.  I was born and raised in The Bahamas
             and have since relocated to New York City.  I enjoy coding as I am able to view my work and also
             troubleshoot issues to find root causes and solutions.  I'm excited to embark on the journey of
@@ -33,12 +41,17 @@
     </section>
     <section class="work">
         <h2>Work</h2>
-        <div id="work-placeholder">
+        <div alt="css-cheatsheet" class="first-work">
             <a href="https://vlexaega.github.io/css-snippet-cheatsheet/" target="_blank">
                 <img src="../hw2-advanced-css-challenge-professional-portfolio/assets/css.snippet.cheatsheet.jpg" alt="css webpage"
-                id="css-image">
+                id="css-image"></a>
         </div>
-
+        <div alt="placeholder image" class="placeholder">
+            <p>Coming Soon!</p>
+        </div>
+        <div alt="placeholder image" class="placeholder">
+            <p>Coming Soon!</p>
+        </div>
     </section>
     <section class="contact">
         <h2>Contact</h2>
