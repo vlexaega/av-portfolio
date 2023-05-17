@@ -29,8 +29,8 @@ header li {
 /* MAIN CONTENT STYLING */
 
 main {
-    display:flex;
-    flex-direction: column;
+    /*display:flex;*/
+    /*flex-direction: column;*/
     background-color: rgb(121, 211, 250);
     padding: 10px;
     margin-top: -1%;
@@ -45,81 +45,109 @@ main h2 {
 
 section {
     display: flex;
-    justify-content: start;
+    /*justify-content: start;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 }
 
-/*section p {
+section p {
     align-self: center;
     /*margin-left: 420px;
     margin-top: -210px;*/
-
+}
 
 /*.about-me p{
     display:flex;
     flex-wrap: wrap;
 }*/
-.work .about-me .contact{
+
+/*.work {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}*/
+/*.work .about-me .contact{
     display:flex;
     flex-wrap: wrap;
     height:300px;
     justify-content: flex-start;
     align-items: center;
     width:100%;
-}
+}*/
 
-.work div {
+/*.work div {
     min-width: 50%;
     flex-basis: 350px;
-    flex-grow: 1;
-    
-}
+    flex-grow: 1;   
+}*/
 
-.first-work {
+.first-work .placeholder {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    /*width: 100%;
     width:100%;
     min-width: 75%;
     flex-basis: 400px;
     flex-grow: 1px;
-    position: relative;
+    position: relative;*/
 }
+
+/*.work .placeholder {*/
+    /*width:50%;*/
+    /*height:75%;*/
+    /*margin:-11px;*/
+    /*margin-left: 130px;*/
+    /*background-color: rgb(234, 255, 0);*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*flex-basis: 300px;*/
+    /*padding:5px;
+}*/
+
 
 
 #css-image {
     border: 5px solid rgb(224, 228, 179);
-    margin: 10px;
+    /*margin: 10px;*/
     height:auto;
     width:100%;
-    display: flex;
+    /*display: flex;*/
     /*flex-grow: 1;*/
 }
 
-
-.work .placeholder {
-    width:50%;
-    height:75%;
-    margin:-11px;
-    margin-left: 130px;
-    background-color: rgb(234, 255, 0);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 300px;
-    padding:5px;
+.placeholder:hover{
+    opacity: .5;
 }
 
 .placeholder p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 300px;
     background: rgb(90, 180, 218);
-    border: 5px solid rgb(224, 228, 179);
     padding: 70px 0;
     text-align: center;
-    width:65%;
+    width:100%;
     height:200px;
+}
+
+
+/*.work div {
+    flex-basis: 350px;
+    min-width: 50%;
+}*/
+
+#contact li {
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+}
+
+#contact li a:hover{
+    color:antiquewhite;
+    transition: all 0.5s ease 0s;
 }
 
 #selfie {
