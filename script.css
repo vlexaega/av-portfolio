@@ -102,16 +102,17 @@ main h2 {
     transition: all 0.5s ease 0s;
 }
 
-.contact-links li {
+.contact-links {
     display: flex;
     justify-content: center;
 }
-.contact-links h2 {
+
+/*.contact-links h2 {
     display:flex;
     justify-content: center;
     color:rgb(2, 2, 2);
     transition: all 0.5s ease 0s;
-}
+} */
 
 #selfie {
     width: 200px;
