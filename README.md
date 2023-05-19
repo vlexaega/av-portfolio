@@ -29,7 +29,8 @@ The webpage will be used to showcase my portfolio and work that has been created
 * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ## Screenshot
-![Untitled 3](https://github.com/vlexaega/hw2-advanced-css-challenge-professional-portflio/assets/132007323/f236d456-3c54-4a29-9a58-7e4f7f3f12e6)
+![screenGrab2-css](https://github.com/vlexaega/hw2-advanced-css-challenge-professional-portflio/assets/132007323/a592e44a-8df5-4ea9-9d94-92d32ff86675)
+
 
 ## License
 N/A
