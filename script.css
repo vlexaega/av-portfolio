@@ -32,41 +32,76 @@ header li {
 
 
 main {
+    display: flex;
+    flex-direction: column;
     background-color:rgb(218, 234, 241);
     padding: 10px;
     margin-top: -1%;
     border: 10px solid rgb(255, 255, 255);
 }
 
-main h2 {
-    font-size:2em;
-    margin:10px;
-    padding:10px;
 
+main h2 {
+    font-size: 2em;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 
-section {
+.about-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.work {
+    display:flex;
+    flex-direction: row;
+}
+
+.work-links {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.placeholder p {
+    border: 25px dashed rgb(249, 201, 9);
+}
+
+#css-image {
+    border: 5px solid rgb(255, 255, 255);
+    inline-size: 500px;
+}
+
+#javascript-image {
+    border: 5px solid rgb(255, 255, 255);
+    inline-size:500px;
+}
+
+
+/* section {
     display: flex;
 }
 
 section p {
     align-self: center;
-}
+} */
 
 
-.work {
+/* .work {
     display: flex;
     flex-flow: column;
 }
 
-.placeholder {
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 75%;
-    flex-basis: 400px;
-    flex-grow: 1px;
-    position: relative;
-}
+
 /* .first-work .placeholder {
     display:flex;
     justify-content: center;
@@ -74,7 +109,7 @@ section p {
     padding:5px;
 } */
 
-#js-image {
+/* #js-image {
     display: flex;
     display: flex;
     flex-wrap: wrap;
@@ -82,38 +117,28 @@ section p {
     flex-basis: 400px;
     flex-grow: 1px;
     position: relative;
-}
+} */
 
-.work div {
+/* .work div {
     flex-basis: 350px;
     min-width: 50%;
-}
+} */
 
 
 .placeholder:hover{
     opacity: .5;
 }
 
-.placeholder p {
+/* .placeholder p {
     background: rgb(90, 180, 218);
     padding: 70px 0;
     text-align: center;
     width:100%;
     height:200px;
-}
+} */
 
 
-#css-image  {
-    border: 5px solid rgb(255, 255, 255);
-    height:auto;
-    width:100%;
-}
 
-#javascript-image {
-    border: 5px solid rgb(255, 255, 255);
-    height:auto;
-    width:100%;
-}
 
 
 #contact li {
@@ -124,6 +149,17 @@ section p {
 
 #contact li a:hover{
     color:antiquewhite;
+    transition: all 0.5s ease 0s;
+}
+
+.contact-links li {
+    display: flex;
+    justify-content: center;
+}
+.contact-links h2 {
+    display:flex;
+    justify-content: center;
+    color:rgb(2, 2, 2);
     transition: all 0.5s ease 0s;
 }
 
