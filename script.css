@@ -98,7 +98,11 @@ main h2 {
     width: 400px;
 }
 
-
+#recyculator-image{
+    border: 5px solid rgb(255, 255, 255);
+    height: 240px;
+    width: 400px;
+}
 
 /* #contact li a:hover{
     color:antiquewhite;
